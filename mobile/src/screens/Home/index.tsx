@@ -4,6 +4,8 @@ import { styles } from './styles';
 
 import logoImg from '../../assets/logo-nlw-esports.png';
 import { Heading } from '../../components/Heading';
+import { GAMES } from '../../utils/games';
+import { GameCard } from '../../components/GameCard';
 
 export function Home() {
   return (
@@ -14,6 +16,10 @@ export function Home() {
       <Heading
         title="Encontre seu duo!"
         subtitle="Selecione o que deseja jogar..."
+      />
+
+      <GameCard
+        data={GAMES[0]}
       />
     </View>
   );

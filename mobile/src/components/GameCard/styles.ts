@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
   cover: {
     width: 240,
     height: 320,
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     borderRadius: 0,
     overflow: 'hidden',
   },
